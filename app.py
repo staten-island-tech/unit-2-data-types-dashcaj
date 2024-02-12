@@ -5,5 +5,4 @@ THE_RANDOM_NUMBER = random.choice(rang)
 guess_history = ' '
 guess = 0
 
-while guess == 0:
-    ttttttttttttttttttttt
+hello t t t t t tt t t t t t t t t t t t t t t t
