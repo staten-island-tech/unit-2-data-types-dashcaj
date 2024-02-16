@@ -21,6 +21,10 @@ def factors2():
     for i in range(1, numbertwo + 1):
         if(numbertwo % i == 0):
             print(i)
+        
+commonfactors = []
+for i in factors1():
+    if i == i in factors2():
+        commonfactors.append(i)
+print(commonfactors)
 
-factors1()
-factors2()
