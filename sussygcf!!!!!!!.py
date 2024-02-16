@@ -26,5 +26,7 @@ commonfactors = []
 for i in factors1():
     if i == i in factors2():
         commonfactors.append(i)
-print(commonfactors)
+
+
+
 
