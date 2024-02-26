@@ -14,21 +14,17 @@ if numberuno > 100 or numbertwo > 100:
 if numberuno < 1 or numbertwo < 1:
         print("one of your numbers are below the range")
 
+commonfactors = []
 def factors1():
     for i in range(1, numberuno + 1):
         if(numberuno % i == 0):
-            print(i)
-
-
-commonfactors = [ ]
+            commonfactors.append(i)
 
 def factors2():
     for i in range(1, numbertwo + 1):
         if(numbertwo % i == 0):
-            print(i)
-
-for i in factors1:
-    if i == i in factors2:
-        commonfactors.append(i)
+            commonfactors.append(i)
+factors1()
+factors2()
 
 print(commonfactors)
