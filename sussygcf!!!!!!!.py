@@ -26,10 +26,18 @@ def factors2():
 factors1()
 factors2()
 
-for i in commonfactors1:
+for i in commonfactors1 and commonfactors2:
     if i == i in commonfactors1 and commonfactors2:
         THECOMMONFACTORS.append(i)
+    if i != i in commonfactors1 and commonfactors2:
+        print("no gcf")
+
+    
 
 sus = max(THECOMMONFACTORS)
-print(sus)
+print(f"Your greatest common factors is: {sus}")
+
+
+
+
 
